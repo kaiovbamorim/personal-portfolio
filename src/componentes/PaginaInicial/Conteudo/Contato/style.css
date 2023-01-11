@@ -1,0 +1,172 @@
+.Contato {
+    padding: 0 40px;
+    background-color: #121216;
+    min-width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    height: 105vh;
+    width: 100%;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+}
+
+.conteudo-contato {
+
+    background-color: #121216;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    max-width: 1800px;
+    width: 650px;
+
+}
+
+.icons-contato {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.icons-contato i {
+    font-size: 46px;
+}
+
+.icons-contato a {
+    color: white;
+}
+
+.icons-contato i:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #553EC3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.label-input {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+textarea:focus,
+input:focus {
+    border-color: #553EC3;
+}
+
+input,
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    color: white;
+    background-color: #09090a;
+    border: 2px solid rgba(66, 65, 65, 0);
+    border-radius: 8px;
+
+}
+
+textarea {
+    height: 100px;
+    padding-top: 10px;
+    min-height: 100px;
+    max-height: 185px;
+}
+
+label {
+    background-color: #09090a;
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 16px;
+    position: absolute;
+    top: 24px;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+.label-active {
+    font-size: 14px;
+    transition: 0.3s;
+    left: 20px;
+    top: 0;
+    color: rgb(167, 238, 0);
+}
+
+.label-input i,
+.label-input svg {
+    margin-left: 4px;
+    vertical-align: middle;
+
+
+}
+
+.NavFooter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    position: fixed;
+    bottom: -80px;
+    display: none;
+}
+
+.NavFooter a {
+    margin: 10px;
+}
+
+.NavFooter a svg {
+    transition: 0.3s;
+    width: 30px;
+    color: #553EC3;
+}
+
+.NavFooter a svg:hover {
+    color: rgb(167, 238, 0);
+    transition: 0.3s;
+    scale: 1.2;
+}
+
+@media (max-width: 780px) {
+    .conteudo-contato {
+        width: 100%;
+    }
+
+    .Contato {
+        padding: 0 24px;
+    }
+
+    .NavFooter {
+        display: flex;
+    }
+}
+
+@media (max-width:600px) {
+    .aws-btn {
+        width: 80%;
+    }
+}
+
+@media (max-height: 780px) {
+    .Contato {
+        height: auto;
+        min-height: 105vh;
+        padding-bottom: 60px;
+    }
+
+}
