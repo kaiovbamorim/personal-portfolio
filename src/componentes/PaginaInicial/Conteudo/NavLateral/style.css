@@ -1,0 +1,54 @@
+.NavLateral {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    top: 40vh;
+    z-index: 20;
+}
+
+.NavLateral a {
+    margin: 10px;
+}
+
+.NavLateral a svg {
+    transition: 0.3s;
+    width: 30px;
+    color: #553EC3;
+}
+
+.NavLateral a svg:hover {
+    color: rgb(167, 238, 0);
+    transition: 0.3s;
+    scale: 1.2;
+}
+
+.button-top {
+    color: #553EC3;
+    position: fixed;
+    right: 1%;
+    bottom: 0px;
+    visibility: hidden;
+    width: 30px;
+    opacity: 0;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.button-top:hover {
+    cursor: pointer;
+    color: #553EC3;
+}
+
+.button-top.visible {
+    opacity: 1;
+    transition: 0.5s;
+    bottom: 50px;
+    visibility: visible;
+}
+
+@media (max-width: 780px) {
+    .NavLateral {
+        display: none;
+    }
+}
