@@ -1,0 +1,134 @@
+.Home {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    height: 100vh;
+    min-width: 100%;
+    margin: 0 auto;
+    background-color: #121216;
+}
+
+.conteudo-home {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-home p {
+    margin: 0;
+    font-size: 1.375rem;
+    color: rgb(199, 199, 199);
+}
+
+.emote-home {
+    justify-self: end;
+}
+
+.emote-home img {
+    object-fit: cover;
+}
+
+.titulo-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Home h1 {
+    font-size: 3.875rem;
+    background: -webkit-linear-gradient(rgb(131, 149, 172), rgb(113, 53, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin: 0;
+}
+
+.Home h2 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.h2-typewriter::after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: Pisca .8s infinite;
+}
+
+.Home p {
+    font-weight: 700;
+}
+
+@keyframes Pisca {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .conteudo-home {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .emote-home {
+        margin-top: 70px;
+        justify-self: center;
+    }
+
+    .emote-home img {
+        width: 270px;
+    }
+}
+
+@media(max-width: 780px) {
+    .titulo-home {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Home {
+        padding: 8px;
+    }
+
+    .Home h1 {
+        line-height: 40px;
+        font-size: 38px;
+    }
+
+    .titulo-home {
+        padding: 10px;
+    }
+
+    .Home h2 {
+        font-size: 20px;
+    }
+
+    .emote-home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .emote-home img {
+        width: 80%;
+    }
+}
+
+@media(max-height: 700px) {
+    .titulo-home {
+        padding-top: 50px;
+    }
+}
