@@ -20,7 +20,7 @@ export default function Home() {
                 <div className='titulo-home'>
                     <p>Olá <span>&#x1F44B;</span>, eu sou</p>
                     <h1>Kaio Amorim</h1>
-                    <h2 className="h2-typewriter">Desenvolvedor Front-End</h2></div>
+                    <h2 className="h2-typewriter">Desenvolvedor Full-Stack</h2></div>
                 <div className="emote-home">
                     <img src='/assets/img-home.webp' alt="Imagem Emote"/>
                 </div>
