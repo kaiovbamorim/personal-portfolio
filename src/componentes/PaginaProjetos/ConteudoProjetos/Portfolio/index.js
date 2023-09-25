@@ -11,7 +11,7 @@ export default function Portfolio() {
         LinkSite={"https://kaioamorim.vercel.app"}
         LinkGit={"https://github.com/kaiovbamorim/personal-portfolio"}
         TextoDescricao={
-          "Meu portfólio criado com intuito de  mostrar meus projetos e minhas experiências como Desenvolvedor Web."
+          "Meu portfólio criado com intuito de mostrar meus projetos e minhas experiências como Desenvolvedor Web."
         }
         ImgTec1={"/assets/react_img.webp"}
         NomeTec1={"React"}
