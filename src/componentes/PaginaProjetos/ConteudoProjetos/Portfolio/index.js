@@ -15,7 +15,7 @@ export default function Portfolio() {
         }
         ImgTec1={"/assets/react_img.webp"}
         NomeTec1={"React"}
-        ImgTec2={"/assets/js_logo_img.webp"}
+        ImgTec2={"/assets/js_img.webp"}
         NomeTec2={"JavaScript"}
         screenshots={[
           { src: "/assets/portfolio.webp" },

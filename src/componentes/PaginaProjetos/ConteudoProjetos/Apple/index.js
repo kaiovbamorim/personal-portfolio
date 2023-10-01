@@ -15,7 +15,7 @@ export default function Apple() {
                 NomeTec1={'HTML'}
                 ImgTec2={'/assets/css_img.webp'}
                 NomeTec2={'CSS'}
-                ImgTec3={'/assets/js_logo_img.webp'}
+                ImgTec3={'/assets/js_img.webp'}
                 NomeTec3={'JavaScript'}
                 screenshots={[
                     { src: "/assets/apple.webp" },

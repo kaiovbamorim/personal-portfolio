@@ -15,7 +15,7 @@ export default function GitFinder() {
         }
         ImgTec1={"/assets/react_img.webp"}
         NomeTec1={"React"}
-        ImgTec2={"/assets/js_logo_img.webp"}
+        ImgTec2={"/assets/js_img.webp"}
         NomeTec2={"JavaScript"}
         screenshots={[
           { src: "/assets/gitfinder.webp" },

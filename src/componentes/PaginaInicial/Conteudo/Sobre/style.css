@@ -7,8 +7,6 @@
     padding-bottom: 60px;
 }
 
-
-
 .conteudo-sobre {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -40,6 +38,10 @@
 }
 
 @media(max-width: 1000px) {
+    .Sobre {
+        min-height: 105vh !important;
+        height: auto;
+    }
     .conteudo-sobre {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -68,8 +70,6 @@
 /*App.css*/
 @media (max-width: 650px) {
     .Sobre {
-        min-height: 105vh;
-        height: auto;
         padding-bottom: 60px;
     }
 }
